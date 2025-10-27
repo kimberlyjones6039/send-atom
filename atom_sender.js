@@ -1,3 +1,4 @@
+// atom sender
 const { SigningStargateClient } = require('@cosmjs/stargate');
 const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
 const { stringToPath } = require('@cosmjs/crypto');
@@ -514,3 +515,4 @@ module.exports = {
     processExcelFile,
     testSingleTransfer
 };
+
